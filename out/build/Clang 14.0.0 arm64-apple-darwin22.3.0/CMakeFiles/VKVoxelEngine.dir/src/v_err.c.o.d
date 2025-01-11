@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/v_err.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/v_err.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/v_err.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/v_err.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/v_err.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/cdefs.h \
@@ -79,7 +79,7 @@ CMakeFiles/VKVoxelEngine.dir/src/v_err.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/malloc/_ptrcheck.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/stb_ds.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/stb_ds.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \

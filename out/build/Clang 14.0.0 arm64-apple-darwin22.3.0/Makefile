@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/landondevendorf/Programs/CVulkanVoxelEngine
+CMAKE_SOURCE_DIR = /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0"
+CMAKE_BINARY_DIR = "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/opt/homebrew/Cellar/cmake/3.25.3/bin/cpack --config ./CPackSourceConfig.cmake /Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang\ 14.0.0\ arm64-apple-darwin22.3.0/CPackSourceConfig.cmake
+	/opt/homebrew/Cellar/cmake/3.25.3/bin/cpack --config ./CPackSourceConfig.cmake /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang\ 14.0.0\ arm64-apple-darwin22.3.0/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,9 +162,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/CMakeFiles" "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/CMakeFiles" "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

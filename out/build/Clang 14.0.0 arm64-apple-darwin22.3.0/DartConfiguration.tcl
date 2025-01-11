@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/landondevendorf/Programs/CVulkanVoxelEngine
-BuildDirectory: /Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0
+SourceDirectory: /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine
+BuildDirectory: /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: HS-SMITHOLI-L1.Franklin.k12.wi.us
+Site: da-puter.attlocal.net
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-clang++
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake" "/Users/landondevendorf/Programs/CVulkanVoxelEngine"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake" "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.25.3/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,9 +58,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/clang++

@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/cvve/queue.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/cvve/queue.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/queue.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/cvve/queue.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/queue.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \

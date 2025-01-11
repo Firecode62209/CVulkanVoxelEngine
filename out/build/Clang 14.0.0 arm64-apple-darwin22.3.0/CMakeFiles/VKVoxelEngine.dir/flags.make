@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang
 C_DEFINES = -DGLSLANG_IS_SHARED_LIBRARY=1
 
-C_INCLUDES = -I/usr/local/include -I/Users/landondevendorf/Programs/CVulkanVoxelEngine/include -I/Users/landondevendorf/Programs/CVulkanVoxelEngine/lib -I/Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/cglm/include -isystem /opt/homebrew/include
+C_INCLUDES = -I/usr/local/include -I/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include -I/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib -I/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/cglm/include -isystem /opt/homebrew/include
 
 C_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 

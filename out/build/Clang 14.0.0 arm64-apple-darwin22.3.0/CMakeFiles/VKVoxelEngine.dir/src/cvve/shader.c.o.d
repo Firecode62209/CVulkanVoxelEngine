@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/cvve/shader.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/cvve/shader.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/shader.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/cvve/shader.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/shader.h \
   /usr/local/include/glslang/Include/glslang_c_interface.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdlib.h \
@@ -84,8 +84,8 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/shader.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_common.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/v_err.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/stb_ds.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/v_err.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/stb_ds.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \

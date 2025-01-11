@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/landondevendorf/Programs/CVulkanVoxelEngine/CMakeLists.txt"
-  "/Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/cglm/CMakeLists.txt"
-  "/Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/cglm/cglm.pc.in"
+  "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/CMakeLists.txt"
+  "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/cglm/CMakeLists.txt"
+  "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/cglm/cglm.pc.in"
   "CMakeFiles/3.25.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.3/CMakeSystem.cmake"
   "/opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCInformation.cmake"

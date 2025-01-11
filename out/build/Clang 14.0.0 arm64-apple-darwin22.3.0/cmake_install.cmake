@@ -1,8 +1,8 @@
-# Install script for directory: /Users/landondevendorf/Programs/CVulkanVoxelEngine
+# Install script for directory: /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/install/Clang 14.0.0 arm64-apple-darwin22.3.0")
+  set(CMAKE_INSTALL_PREFIX "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/install/Clang 14.0.0 arm64-apple-darwin22.3.0")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

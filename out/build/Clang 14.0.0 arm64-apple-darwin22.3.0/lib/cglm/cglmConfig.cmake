@@ -50,13 +50,13 @@ unset(_cmake_expected_targets)
 add_library(cglm::cglm SHARED IMPORTED)
 
 set_target_properties(cglm::cglm PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/cglm/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/cglm/include"
 )
 
 # Import target "cglm::cglm" for configuration "Debug"
 set_property(TARGET cglm::cglm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(cglm::cglm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/lib/cglm/libcglm.0.9.5.dylib"
+  IMPORTED_LOCATION_DEBUG "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/lib/cglm/libcglm.0.9.5.dylib"
   IMPORTED_SONAME_DEBUG "@rpath/libcglm.0.dylib"
   )
 

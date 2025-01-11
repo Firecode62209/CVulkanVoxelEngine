@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/landondevendorf/Programs/CVulkanVoxelEngine
+CMAKE_SOURCE_DIR = /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0"
+CMAKE_BINARY_DIR = "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0"
 
 # Utility rule file for Continuous.
 
@@ -82,6 +82,6 @@ CMakeFiles/Continuous.dir/clean:
 .PHONY : CMakeFiles/Continuous.dir/clean
 
 CMakeFiles/Continuous.dir/depend:
-	cd "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/landondevendorf/Programs/CVulkanVoxelEngine /Users/landondevendorf/Programs/CVulkanVoxelEngine "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0" "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0" "/Users/landondevendorf/Programs/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/CMakeFiles/Continuous.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0" "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0" "/Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/out/build/Clang 14.0.0 arm64-apple-darwin22.3.0/CMakeFiles/Continuous.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Continuous.dir/depend
 

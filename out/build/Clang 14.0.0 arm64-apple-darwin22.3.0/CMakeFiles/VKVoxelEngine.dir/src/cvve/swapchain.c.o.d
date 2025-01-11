@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/cvve/swapchain.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/cvve/swapchain.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/swapchain.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/cvve/swapchain.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/swapchain.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
@@ -49,7 +49,7 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/swapchain.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/os/availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/stb_ds.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/stb_ds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \
@@ -97,7 +97,7 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/swapchain.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/malloc/_ptrcheck.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/v_err.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/v_err.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_va_list.h \
@@ -108,8 +108,8 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/swapchain.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/setjmp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/math.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/queue.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/queue.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/device.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/validation_layers.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/swapchain_support.h
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/device.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/validation_layers.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/swapchain_support.h

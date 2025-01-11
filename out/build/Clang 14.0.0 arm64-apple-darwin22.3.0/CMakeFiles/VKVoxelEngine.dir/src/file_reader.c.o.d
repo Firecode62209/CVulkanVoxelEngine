@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/file_reader.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/file_reader.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/file_reader.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/file_reader.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/file_reader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/cdefs.h \
@@ -98,8 +98,8 @@ CMakeFiles/VKVoxelEngine.dir/src/file_reader.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/gethostuuid.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/v_err.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/stb_ds.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/v_err.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/stb_ds.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \

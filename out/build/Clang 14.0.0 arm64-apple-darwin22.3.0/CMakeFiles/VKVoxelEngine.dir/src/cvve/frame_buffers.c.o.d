@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/cvve/frame_buffers.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/cvve/frame_buffers.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/frame_buffers.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/cvve/frame_buffers.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/frame_buffers.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
@@ -49,9 +49,9 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/frame_buffers.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/os/availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/device.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/device.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/v_err.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/v_err.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \
@@ -101,7 +101,7 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/frame_buffers.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/malloc/_ptrcheck.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/stb_ds.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/stb_ds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_errno_t.h \
@@ -109,13 +109,13 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/frame_buffers.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/setjmp.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/queue.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/validation_layers.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/swapchain_support.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/swapchain.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/queue.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/validation_layers.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/swapchain_support.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/swapchain.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/math.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/graphics_pipeline.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/file_reader.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/graphics_pipeline.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/file_reader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -135,12 +135,12 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/frame_buffers.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/gethostuuid.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/shader.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/shader.h \
   /usr/local/include/glslang/Include/glslang_c_interface.h \
   /usr/local/include/glslang/Include/glslang_c_shader_types.h \
   /usr/local/include/glslang/Public/resource_limits_c.h \
   /usr/local/include/glslang/Public/../Include/glslang_c_interface.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/vertex.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/vertex.h \
   /usr/local/include/cglm/cglm.h /usr/local/include/cglm/common.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h \
@@ -191,4 +191,4 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/frame_buffers.c.o: \
   /usr/local/include/cglm/sphere.h /usr/local/include/cglm/ease.h \
   /usr/local/include/cglm/curve.h /usr/local/include/cglm/bezier.h \
   /usr/local/include/cglm/ray.h /usr/local/include/cglm/affine2d.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/buffer.h
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/buffer.h

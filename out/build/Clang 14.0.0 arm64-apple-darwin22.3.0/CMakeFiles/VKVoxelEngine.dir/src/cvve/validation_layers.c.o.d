@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/cvve/validation_layers.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/cvve/validation_layers.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/validation_layers.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/cvve/validation_layers.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/validation_layers.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
@@ -50,7 +50,7 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/validation_layers.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/stb_ds.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/stb_ds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \

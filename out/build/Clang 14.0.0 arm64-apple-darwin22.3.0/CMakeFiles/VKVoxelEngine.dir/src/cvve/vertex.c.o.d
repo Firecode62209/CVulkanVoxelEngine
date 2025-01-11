@@ -1,6 +1,6 @@
 CMakeFiles/VKVoxelEngine.dir/src/cvve/vertex.c.o: \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/src/cvve/vertex.c \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/vertex.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/src/cvve/vertex.c \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/vertex.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
@@ -150,17 +150,17 @@ CMakeFiles/VKVoxelEngine.dir/src/cvve/vertex.c.o: \
   /usr/local/include/cglm/sphere.h /usr/local/include/cglm/ease.h \
   /usr/local/include/cglm/curve.h /usr/local/include/cglm/bezier.h \
   /usr/local/include/cglm/ray.h /usr/local/include/cglm/affine2d.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/lib/stb_ds.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/lib/stb_ds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_string.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/device.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/v_err.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/device.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/v_err.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/setjmp.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/queue.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/validation_layers.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/swapchain_support.h \
-  /Users/landondevendorf/Programs/CVulkanVoxelEngine/include/cvve/buffer.h
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/queue.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/validation_layers.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/swapchain_support.h \
+  /Users/landondevendorf/Documents/GitHub/CVulkanVoxelEngine/include/cvve/buffer.h
