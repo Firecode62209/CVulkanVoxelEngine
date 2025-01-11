@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "__config": "c",
+        "ostream": "c",
+        "glfw3.h": "c",
+        "ios": "cpp",
+        "app.h": "c",
+        "helper.h": "c",
+        "vector.h": "c",
+        "string.h": "c",
+        "queue_family.h": "c",
+        "stb_ds.h": "c",
+        "v_err.h": "c",
+        "cvve.h": "c",
+        "element.h": "c",
+        "instance.h": "c",
+        "surface.h": "c",
+        "stdlib.h": "c",
+        "queue.h": "c",
+        "file_reader.h": "c",
+        "graphics_pipeline.h": "c",
+        "shader.h": "c",
+        "draw.h": "c",
+        "vertex.h": "c"
+    }
+}
