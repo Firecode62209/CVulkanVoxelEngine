@@ -44,7 +44,8 @@ void record_command_buffer(
     VkFramebuffer* framebuffers,
     CvveSwapchain swapchain,
     CvveBuffer vertexBuffer,
-    CvveBuffer indexBuffer
+    CvveBuffer indexBuffer,
+    CvveDescriptor descriptor
 ) {
     VkCommandBufferBeginInfo beginInfo = {};
     beginInfo.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
@@ -88,6 +89,7 @@ void record_command_buffer(
     scissor.extent = swapchain.extent;
     vkCmdSetScissor(buffer, 0, 1, &scissor);
 
+    vkCmdBindDescriptorSets(buffer, VK_PIPELINE_BIND_POINT_GRAPHICS, graphicsPipeline.layout, 0, 1, &descriptor.sets[currentFrame], 0, NULL);
     vkCmdDrawIndexed(buffer, sizeof(indices)/sizeof(indices[0]), 1, 0, 0, 0);
     vkCmdEndRenderPass(buffer);
 

@@ -9,6 +9,7 @@
 #include "graphics_pipeline.h"
 #include "frame_buffers.h"
 #include "vertex.h"
+#include "uniform.h"
 
 extern const int MAX_FRAMES_IN_FLIGHT;
 extern uint32_t currentFrame;
@@ -37,7 +38,9 @@ void draw_frame(
     VkSurfaceKHR surface,
     GLFWwindow* window,
     CvveBuffer vertexBuffer,
-    CvveBuffer indexBuffer
+    CvveBuffer indexBuffer,
+    void** uniformBuffersMapped,
+    CvveDescriptor descriptor
 );
 
 #endif

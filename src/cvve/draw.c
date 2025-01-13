@@ -49,7 +49,9 @@ void draw_frame(
     VkSurfaceKHR surface,
     GLFWwindow* window,
     CvveBuffer vertexBuffer,
-    CvveBuffer indexBuffer
+    CvveBuffer indexBuffer,
+    void** uniformBuffersMapped,
+    CvveDescriptor descriptor
 ) {
     vkWaitForFences(device.logical, 1, &syncObjects[currentFrame].inFlightFence, VK_TRUE, UINT64_MAX);
 
@@ -66,6 +68,12 @@ void draw_frame(
 
     vkResetFences(device.logical, 1, &syncObjects[currentFrame].inFlightFence);
 
+    update_uniform_buffer(
+        uniformBuffersMapped,
+        currentFrame,
+        swapchain->extent
+    );
+
     vkResetCommandBuffer(commands.buffers[currentFrame], 0);
     record_command_buffer(
         commands.buffers[currentFrame],
@@ -74,7 +82,8 @@ void draw_frame(
         *framebuffers,
         *swapchain,
         vertexBuffer,
-        indexBuffer
+        indexBuffer,
+        descriptor
     );
 
     VkSubmitInfo submitInfo = {};

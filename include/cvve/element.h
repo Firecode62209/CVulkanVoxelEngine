@@ -14,18 +14,22 @@
 #include "command.h"
 #include "draw.h"
 #include "vertex.h"
+#include "uniform.h"
 
 typedef struct CvveElement {
     VkInstance instance;
     VkSurfaceKHR surface;
     CvveDevice device;
     CvveSwapchain swapchain;
+    CvveDescriptor descriptor;
     CvveGraphicsPipeline graphicsPipeline;
     VkFramebuffer* framebuffers;
     CvveCommands commands;
     CvveSyncObjects* syncObjects;
     CvveBuffer vertexBuffer;
     CvveBuffer indexBuffer;
+    CvveBuffer* uniformBuffers;
+    void** uniformBuffersMapped;
 } CvveElement;
 
 CvveElement create_cvve_element();

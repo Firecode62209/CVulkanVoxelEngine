@@ -2,6 +2,7 @@
 
 void create_graphics_pipeline(
     CvveGraphicsPipeline* pipeline,
+    CvveDescriptor descriptor,
     CvveDevice device,
     CvveSwapchain swapchain
 ) {
@@ -77,7 +78,7 @@ void create_graphics_pipeline(
     rasterizerInfo.polygonMode = VK_POLYGON_MODE_FILL;
     rasterizerInfo.lineWidth = 1.0f;
     rasterizerInfo.cullMode = VK_CULL_MODE_BACK_BIT;
-    rasterizerInfo.frontFace = VK_FRONT_FACE_CLOCKWISE;
+    rasterizerInfo.frontFace = VK_FRONT_FACE_COUNTER_CLOCKWISE;
     rasterizerInfo.depthBiasEnable = VK_FALSE;
 
     VkPipelineMultisampleStateCreateInfo multisamplingInfo = {};
@@ -107,6 +108,8 @@ void create_graphics_pipeline(
 
     VkPipelineLayoutCreateInfo pipelineLayoutInfo = {};
     pipelineLayoutInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO;
+    pipelineLayoutInfo.setLayoutCount = 1;
+    pipelineLayoutInfo.pSetLayouts = &descriptor.setLayout;
 
     if (vkCreatePipelineLayout(device.logical, &pipelineLayoutInfo, NULL, &pipeline->layout) != VK_SUCCESS) {
         throw_verr(VERR_LEVEL_ERROR, "Failed to create vulkan pipeline layout");

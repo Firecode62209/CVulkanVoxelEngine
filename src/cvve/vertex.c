@@ -1,13 +1,19 @@
 #include "cvve/vertex.h"
 
-const Vertex vertices[4] = {
-    {{-0.5f, -0.5f}, {1.0f, 0.0f, 0.0f}},
-    {{0.5f, -0.5f}, {0.0f, 1.0f, 0.0f}},
-    {{0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}},
-    {{-0.5f, 0.5f}, {1.0f, 1.0f, 1.0f}}
+const Vertex vertices[8] = {
+    {{-0.5f, -0.5f, 0.0f}, {1.0f, 0.0f, 0.0f}},
+    {{0.5f, -0.5f, 0.0f}, {0.0f, 1.0f, 0.0f}},
+    {{0.5f, 0.5f, 0.0f}, {0.0f, 0.0f, 1.0f}},
+    {{-0.5f, 0.5f, 0.0f}, {1.0f, 1.0f, 0.0f}},
+
+    {{-0.5f, -0.5f, -0.5f}, {1.0f, 0.0f, 0.0f}},
+    {{0.5f, -0.5f, -0.5f}, {0.0f, 1.0f, 0.0f}},
+    {{0.5f, 0.5f, -0.5f}, {0.0f, 0.0f, 1.0f}},
+    {{-0.5f, 0.5f, -0.5f}, {1.0f, 1.0f, 0.0f}}
 };
-const uint16_t indices[6] = {
-    0, 1, 2, 2, 3, 0
+const uint16_t indices[12] = {
+    0, 1, 2, 2, 3, 0,
+    4, 5, 6, 6, 7, 4
 };
 
 VkVertexInputBindingDescription get_vertex_binding_description() {
@@ -27,7 +33,7 @@ VkVertexInputAttributeDescription* get_attribute_descriptions() {
     }
     attributesDescriptions[0].binding = 0;
     attributesDescriptions[0].location = 0;
-    attributesDescriptions[0].format = VK_FORMAT_R32G32_SFLOAT;
+    attributesDescriptions[0].format = VK_FORMAT_R32G32B32_SFLOAT;
     attributesDescriptions[0].offset = offsetof(Vertex, pos);
 
     attributesDescriptions[1].binding = 0;

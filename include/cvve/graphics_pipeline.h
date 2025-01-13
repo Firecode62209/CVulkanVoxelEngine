@@ -8,6 +8,7 @@
 #include "swapchain.h"
 #include "shader.h"
 #include "vertex.h"
+#include "uniform.h"
 
 typedef struct CvveGraphicsPipeline {
     VkPipeline data;
@@ -17,8 +18,9 @@ typedef struct CvveGraphicsPipeline {
 
 void create_graphics_pipeline(
     CvveGraphicsPipeline* pipeline,
+    CvveDescriptor descriptor,
     CvveDevice device,
-    CvveSwapchain swapchain    
+    CvveSwapchain swapchain
 );
 void create_render_pass(
     VkRenderPass* renderPass,

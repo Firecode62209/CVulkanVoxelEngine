@@ -21,6 +21,8 @@
         "graphics_pipeline.h": "c",
         "shader.h": "c",
         "draw.h": "c",
-        "vertex.h": "c"
+        "vertex.h": "c",
+        "descriptor.h": "c",
+        "uniform.h": "c"
     }
 }

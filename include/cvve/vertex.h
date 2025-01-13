@@ -10,12 +10,12 @@
 #include "stdlib.h"
 
 typedef struct Vertex {
-    vec2 pos;
+    vec3 pos;
     vec3 color;
 } Vertex;
 
-extern const Vertex vertices[4];
-extern const uint16_t indices[6];
+extern const Vertex vertices[8];
+extern const uint16_t indices[12];
 
 VkVertexInputBindingDescription get_vertex_binding_description();
 VkVertexInputAttributeDescription* get_attribute_descriptions();

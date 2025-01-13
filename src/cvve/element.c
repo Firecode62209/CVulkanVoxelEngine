@@ -23,8 +23,19 @@ void init_cvve_element(
         element->surface,
         window
     );
+    create_uniform_buffers(
+        &element->uniformBuffers,
+        &element->uniformBuffersMapped,
+        element->device
+    );
+    create_descriptor(
+        &element->descriptor,
+        element->uniformBuffers,
+        element->device
+    );
     create_graphics_pipeline(
         &element->graphicsPipeline,
+        element->descriptor,
         element->device,
         element->swapchain
     );
@@ -66,7 +77,9 @@ void draw_element_frame(CvveElement* element, GLFWwindow* window) {
         element->surface,
         window,
         element->vertexBuffer,
-        element->indexBuffer
+        element->indexBuffer,
+        element->uniformBuffersMapped,
+        element->descriptor
     );
 }
 
@@ -76,6 +89,8 @@ void destroy_cvve_element(CvveElement element) {
     destroy_framebuffers(element.framebuffers, element.device);
     destroy_graphics_pipeline(element.graphicsPipeline, element.device);
     destroy_swapchain(element.swapchain, element.device);
+    destroy_descriptor(element.descriptor, element.device);
+    destroy_uniform_buffers(element.uniformBuffers, element.device);
     destroy_buffer(element.vertexBuffer, element.device);
     destroy_buffer(element.indexBuffer, element.device);
     destroy_devices(element.device);
